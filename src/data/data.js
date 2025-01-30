@@ -1,42 +1,24 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe} from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { CgWebsite } from "react-icons/cg";
+import {FaGlobe} from "react-icons/fa";
+import {SiAntdesign } from "react-icons/si";
 
-// Features Data
 export const featuresData = [
   {
     id: 1,
-    title: "Business Stratagy",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <CgWebsite />,
+    title: "Website Development",
+    des: "Building responsive, modern, and user-friendly websites with clean design, smooth performance, and seamless functionality using the latest web technologies.",
   },
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <SiAntdesign />,
+    title: "UX Design",
+    des: "Designing intuitive, user-friendly, and visually appealing interfaces with a focus on seamless user experience and modern design principles.",
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
-  {
-    id: 4,
-    icon: <FaMobile />,
-    title: "Mobile Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
-  {
-    id: 5,
-    icon: <SiAntdesign />,
-    title: "UX Design",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
-  {
-    id: 6,
     icon: <FaGlobe />,
     title: "Hosting Websites",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Providing secure, reliable, and fast website hosting with seamless deployment, optimization, and maintenance for a smooth online experience.",
   },
 ];

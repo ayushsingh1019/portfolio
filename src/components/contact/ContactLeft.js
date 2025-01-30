@@ -16,14 +16,15 @@ const ContactLeft = () => {
           MERN Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+         Passionate MERN Stack Developer with strong skills in MongoDB, Express.js, React.js, and Node.js.
+          Eager to build scalable web applications, enhance user experiences, and learn new technologies in
+         a dynamic environment.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+91 7275826778</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email: <span className="text-lightText">ayush.r1019@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
