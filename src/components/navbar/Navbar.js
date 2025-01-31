@@ -7,11 +7,11 @@ import { navLinksdata } from '../../constants';
 import logo from "../../assets/images/logo.png"
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  const [showMenu, setShowMenu] = useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <img src={logo} alt="logo" className='h-20 w-36'/>
+        <img src={logo} alt="logo" className='h-20 w-36' />
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -45,9 +45,10 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  I am a Mern Stack Developer with a strong foundation in Web Development gained through
+                  internships and projects. I am deeply passionate about using technology to create
+                  engaging website and enhancing user experience. I am eager to advance my skills in a
+                  dynamic work environment and contribute to innovative projects.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
